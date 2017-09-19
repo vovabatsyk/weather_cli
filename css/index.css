@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 html,body {
 	width: 100%;
 	height: 100%;
@@ -42,7 +47,11 @@ nav li a:hover {
 }
 
  h2 {
+ 	font-size: 40px;
 	text-align: center;
+}
+p {
+	font-size: 30px;
 }
 
 #home {
