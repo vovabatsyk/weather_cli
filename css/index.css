@@ -13,9 +13,13 @@ body {
 }
 
 header{
-	height:70px;
+	height:400px;
 	margin: 1px 1px 1px 1px;
 	padding: 20px 1px 1px 1px;
+}
+.logo {
+	height:130%;
+	width: 100%;
 }
 
 nav {
@@ -27,7 +31,7 @@ nav {
 }
 
 nav li {
-	border: solid 2px;
+	border: solid 1px;
 	float: left;
 	list-style: none;
 }
@@ -96,8 +100,8 @@ p {
 	width: 100px;
 }
 .hobbies {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 }
 
 input[type=text] {
@@ -108,4 +112,7 @@ input[type=text] {
 input[type=email] {
     width: 30%;
     padding: 8px 5px;
+}
+.mysite {
+	text-align: center;
 }
