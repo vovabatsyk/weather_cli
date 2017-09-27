@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans'); * {
     font-family: 'Josefin Sans', sans-serif;
 }
-
+html{
+	background-color: blue;
+}
 body {
     background-color: #4dd7fa;
     max-width: 900px;
@@ -147,6 +149,9 @@ p {
     border-top-style: solid;
     line-height: 1.5;
 }
+footer: {
+	    height: 350px;
+}
 
 .call {
     width: 50px;
@@ -160,19 +165,22 @@ p {
     width: 200px;
     height: 200px;
 }
-
+form {
+	float: right;
+}
 input[type=text] {
-    width: 30%;
+    width: 363px;
     padding: 8px 5px;
 }
 
 input[type=email] {
-    width: 30%;
+    width: 363px;
     padding: 8px 5px;
 }
 
 .mysite {
     text-align: center;
+       margin-bottom: 50px;
 }
 
 @media (max-width: 870px) {
