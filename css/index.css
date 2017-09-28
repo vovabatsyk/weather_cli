@@ -240,4 +240,19 @@ textarea {
         height: 100px;
     }
 }
+@media (max-width: 770px) {
+    form {
+    float: none;
+    text-align: center
+    }
+    
+    footer {
+        height: 450px;
+    }
+input[type=submit] {
+    width: 150px;
+    height: 30px;
+    left: 0;
+}
+}
 
