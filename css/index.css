@@ -261,8 +261,9 @@ input[type=submit] {
     } 
     input[type=text] {
     width: 334px;
-    padding: 8px 5px;
-    background-color: #fef8a0;
+}
+form {
+        margin-bottom: 30px;
 }
 
 input[type=email] {
@@ -271,10 +272,33 @@ input[type=email] {
 input[type=submit] {
     width: 200px;
     left: 0px;
-  
 }
 textarea {
        width: 344px;
        height: 60px;
+    }
+    footer div a {
+   font-size: small;
+}
+}
+@media (max-width: 370px) {
+    #home img {
+    width: 300px;
+    height: 280px;
+}
+    input[type=text] {
+    width: 280px;
+}
+
+input[type=email] {
+    width: 280px;
+}
+input[type=submit] {
+    width: 200px;
+    left: 0px;
+  
+}
+textarea {
+       width: 291px;
     }
 }
