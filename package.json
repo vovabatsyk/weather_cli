@@ -1,0 +1,25 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "vovabatsyk",
+  "license": "ISC",
+  "homepage": "https://test.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vovabatsyk/weather_cli"
+  },
+  "bugs": {
+    "url": "https://test.com",
+    "email": "vovabatsyk.lviv@gmail.com"
+  }
+}
